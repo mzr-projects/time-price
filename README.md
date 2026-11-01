@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# time-price
-=======
-<<<<<<< HEAD
-# time-price
-=======
 # TimePrice
 
 TimePrice turns a price into hours of deep work at your net hourly wage. A wishlist link, and on iPhone a shielded app, stays closed until a real focus session finishes. The session counts foreground time only. There is no skip.
