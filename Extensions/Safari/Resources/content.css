@@ -1,0 +1,20 @@
+.timeprice-annotation {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.1em;
+  line-height: 1.15;
+  vertical-align: baseline;
+}
+
+.timeprice-hours {
+  font: inherit;
+  font-weight: 650;
+  font-size: 1.05em;
+}
+
+.timeprice-original {
+  font: inherit;
+  font-size: 0.72em;
+  opacity: 0.72;
+}

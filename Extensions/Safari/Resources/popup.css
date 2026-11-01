@@ -1,0 +1,54 @@
+:root {
+  color-scheme: light dark;
+  --paper: #f6f1e8;
+  --ink: #1c1915;
+  --pine: #1f6f5b;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #1c1915;
+    --ink: #f6f1e8;
+    --pine: #7dcfb6;
+  }
+}
+
+body {
+  margin: 0;
+  min-width: 240px;
+  background: var(--paper);
+  color: var(--ink);
+  font: 16px/1.4 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+main {
+  padding: 16px;
+}
+
+h1 {
+  margin: 0 0 8px;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+#wage {
+  margin: 0 0 14px;
+  font-size: 1.35rem;
+  font-weight: 560;
+}
+
+.toggle {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.note {
+  margin: 14px 0 0;
+}
+
+.note-link {
+  color: var(--pine);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
